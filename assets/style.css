@@ -1,1 +1,47 @@
+/* Reset default browser styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f8f8;
+}
+
+header {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.hero {
+  background-color: #0d0d0d;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
